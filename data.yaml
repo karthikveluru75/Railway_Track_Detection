@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Tiger-cow', 'camel', 'elephant', 'fox']
+
+roboflow:
+  workspace: jp-icc04
+  project: train_animal_dectection
+  version: 1
+  license: MIT
+  url: https://universe.roboflow.com/jp-icc04/train_animal_dectection/dataset/1
